@@ -1,0 +1,34 @@
+#Demonstration: Using Azure CLI
+#run az configure, disable logging and data collection
+
+# sign in: https://microsoft.com/devicelogin
+az login
+
+# create a new storage group called 20533D0201-DemoRG
+az group create --name 20533D0201-DemoRG --location centralus
+#ALTERNATE: az group create -n 20533D0201-DemoRG -l centralus
+
+
+# verify that the new resource group was successfully created.
+az group list
+
+az group list --query "[?location=='centralus']"
+
+az group show --name 20533D0201-DemoRG
+
+# create a new storage account
+#az storage account create --name 20533d0102demostorage --resource-group 20533D0201-DemoRG --location centralus --sku Standard_LRS
+az storage account create -n 20533d0102demostorage -g 20533D0201-DemoRG -l centralus --sku Standard_LRS
+
+# verify that the new storage account was successfully created.
+az storage account list -g 20533D0201-DemoRG
+
+# delete the resource group
+az group delete -g 20533D0201-DemoRG
+
+# verify that the resource group has been deleted.
+az group list --query "[?location=='centralus']"
+az group show --name 20533D0201-DemoRG
+
+# verify that the new storage account was successfully deleted.
+az storage account list -g 20533D0201-DemoRG

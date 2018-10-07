@@ -1,0 +1,88 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180404061706
+Username: ASINGALA-PC\asingala
+RunAs User: ASINGALA-PC\asingala
+Configuration Name: 
+Machine: ASINGALA-PC (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7940
+PSVersion: 5.1.16299.251
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.251
+BuildVersion: 10.0.16299.251
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Temp\MOC20533\Allfiles\Logs\Remove-20533DEnvironment-8.log
+Started at 04/04/2018 06:16:39
+Ended at 04/04/2018 06:17:08
+
+Total elapsed time is 0 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20180404061708
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20180404074946
+Username: ASINGALA-PC\asingala
+RunAs User: ASINGALA-PC\asingala
+Configuration Name: 
+Machine: ASINGALA-PC (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7940
+PSVersion: 5.1.16299.251
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.251
+BuildVersion: 10.0.16299.251
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Temp\MOC20533\Allfiles\Logs\Remove-20533DEnvironment-8.log
+Deleting 20533D08-DemoRG01 resource group...
+True
+Started at 04/04/2018 07:49:34
+Ended at 04/04/2018 07:51:26
+
+Total elapsed time is 1 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20180404075126
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20180405153701
+Username: ASINGALA-PC\asingala
+RunAs User: ASINGALA-PC\asingala
+Configuration Name: 
+Machine: ASINGALA-PC (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7940
+PSVersion: 5.1.16299.251
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.251
+BuildVersion: 10.0.16299.251
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Temp\MOC20533\Allfiles\Logs\Remove-20533DEnvironment-8.log
+Deleting 20533D08-DemoRG01 resource group...
+True
+Started at 04/05/2018 15:36:39
+Ended at 04/05/2018 15:38:56
+
+Total elapsed time is 2 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20180405153856
+**********************

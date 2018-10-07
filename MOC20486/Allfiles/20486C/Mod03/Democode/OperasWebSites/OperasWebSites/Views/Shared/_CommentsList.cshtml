@@ -1,0 +1,11 @@
+﻿@model IEnumerable<OperasWebSites.Models.Comment>
+
+<h3>@ViewBag.ForComment</h3>
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>
+            Subject: @Html.DisplayFor(modelItem => item.Subject)
+        </li>
+    }
+</ul>

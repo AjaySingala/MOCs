@@ -1,0 +1,16 @@
+# open Git Bash and then execute this command.
+openssl.exe req -x509 -nodes -days 365 -newkey rsa:2048 \
+    -keyout myPrivateKey.key -out myCert.pem
+
+# generate a public key file.
+openssl.exe rsa -pubout -in myPrivateKey.key -out myPublicKey.key
+
+# As a security measure, you should set the permissions on your private key so that only you can access it.
+chmod 0600 myPublicKey.key
+
+# convert your private key into an RSA private key that PuTTYgen can understand
+openssl rsa -in ./myPrivateKey.key -out myPrivateKey_rsa
+
+# As a security measure, you should set the permissions on your private key so that only you can access it
+chmod 0600 myPrivateKey_rsa
+

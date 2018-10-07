@@ -1,0 +1,50 @@
+#1.	From the Azure CLI, login to Azure
+az login
+
+#2.	Create a resource group:
+
+az group create --name 20533D0702-DemoRG --location centralus
+
+#3.	Create the DC/OS cluster (In some cases, such as with a limited trial, an Azure subscription has limited access to Azure resources. If the deployment fails due to limited available cores, reduce the default agent count by adding --agent-count 1 to the az acs create command)
+
+az acs create --orchestrator-type dcos --resource-group 20533D0702-DemoRG --name myDCOSCluster --generate-ssh-keys
+
+#4.	Connect to the DC/OS cluster. Get the ip address and note it down.
+
+az network public-ip list --resource-group 20533D0702-DemoRG --query "[?contains(name,'dcos-master')].[ipAddress]" -o tsv
+
+#5.	To create the SSH tunnel, run the following command and follow the on-screen instructions. If port 80 is already in use, the command fails. Update the tunneled port to one not in use, such as 85:localhost:80. Replace $ip with the ip address you noted in the previous step.
+
+sudo ssh -i ~/.ssh/id_rsa -fNL 85:localhost:80 -p 2200 azureuser@$ip (55.226.128.69)
+
+#6.	The SSH tunnel can be tested by browsing to http://localhost:85. If a port other that 80 has been used, adjust the location to match. If the SSH tunnel was successfully created, the DC/OS portal is returned
+
+#7.	Install the DC/OS CLI
+
+az acs dcos install-cli
+
+#8.	Before the CLI can be used with the cluster, it must be configured to use the SSH tunnel. To do so, run the following command, adjusting the port if needed.
+
+dcos config set core.dcos_url http://localhost:85
+
+#9.	Run an application. The default scheduling mechanism for an ACS DC/OS cluster is Marathon. Marathon is used to start an application and manage the state of the application on the DC/OS cluster.  To schedule an application through Marathon, use the file D:\Temp\MOC20533\Allfiles\Demos\Mod07\marathon-app.json
+
+#10. Run the following command to schedule the application to run on the DC/OS cluster.
+
+dcos marathon app add D:\Temp\MOC20533\Allfiles\Demos\Mod07\marathon-app.json
+
+#11. To see the deployment status for the app, run the following command.
+
+dcos marathon app list
+
+#12. When the WAITING column value switches from True to False, application deployment has completed.
+
+#13. Get the public IP address of the DC/OS cluster agents.
+
+az network public-ip list --resource-group group 20533D0702-DemoRG --query "[?contains(name,'dcos-agent')].[ipAddress]" -o tsv
+
+#14. Browsing to this address returns the default NGINX site.
+
+#15. Delete the DC/OS cluster (delete the group and all related resources)
+
+az group delete --name 20533D0702-DemoRG --no-wait

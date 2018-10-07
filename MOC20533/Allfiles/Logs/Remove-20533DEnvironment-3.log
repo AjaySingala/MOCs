@@ -1,0 +1,30 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180403125514
+Username: ASINGALA-PC\asingala
+RunAs User: ASINGALA-PC\asingala
+Configuration Name: 
+Machine: ASINGALA-PC (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7972
+PSVersion: 5.1.16299.251
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.251
+BuildVersion: 10.0.16299.251
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Temp\MOC20533\Allfiles\Logs\Remove-20533DEnvironment-3.log
+Deleting 20533D0301-DemoRG resource group...
+True
+Started at 04/03/2018 12:55:00
+Ended at 04/03/2018 13:01:02
+
+Total elapsed time is 6 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20180403130102
+**********************

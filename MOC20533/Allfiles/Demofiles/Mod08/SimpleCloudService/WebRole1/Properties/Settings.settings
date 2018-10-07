@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WebRole1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StorageConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;DefaultEndpointsProtocol=https;AccountName=20533d08storageaccount;AccountKey=fRXq7Tvz618nTmnIRs25WV7WhKWIOM6tbYJ36t6dk9/rGpQ5nciswgNQG0kcZrHgjO1emYdwAlLDO2s0j01Sdw==;EndpointSuffix=core.windows.net&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">DefaultEndpointsProtocol=https;AccountName=20533d08storageaccount;AccountKey=fRXq7Tvz618nTmnIRs25WV7WhKWIOM6tbYJ36t6dk9/rGpQ5nciswgNQG0kcZrHgjO1emYdwAlLDO2s0j01Sdw==;EndpointSuffix=core.windows.net</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

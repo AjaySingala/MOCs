@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Binding events using jQuery</title>
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.js">
+
+    </script>
+</head>
+<body>
+    <form>
+        <p>
+            <label>Write your name:
+                <input type="text" id="NameBox" /></label>
+        </p>
+        <input type="button" id="submit" value="Click to Submit" />
+
+    </form>
+    <div id="thankYouArea">
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#submit").click(
+                function () {
+                    var username = $("#NameBox").val();
+                    $("#thankYouArea").replaceWith("<p>Thank you " + username + "</p>");
+                })
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="DesignView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Order Your Coffee Here" Height="350" Width="525">
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="MyBrush" Color="Coral" />
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnGetCoffee" Content="Make Me A Coffee" HorizontalAlignment="Center" VerticalAlignment="Top" Width="Auto" Click="btnGetCoffee_Click"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Grid.Row="1"/>
+
+        <TextBlock Text="Foreground" Foreground="{StaticResource MyBrush}" />
+        <Label Content="Something" Foreground="{StaticResource MyBrush}" />
+    </Grid>
+</Window>

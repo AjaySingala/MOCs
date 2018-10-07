@@ -1,0 +1,239 @@
+# Ignore these
+/MOC20483/Mod07/Democode/Databases/*.mdf
+/MOC20483/Mod07/Democode/Databases/*.ldf
+
+# Ignore .zip files.
+*.zip
+
+#/MCSABootcamp/20480 Labs/*.zip
+#/MCSABootcamp/20486 Labs/*.zip
+#/MOC20487/Allfiles/20487C#/Mod08/DemoFiles/DeployWebApp/Begin/*.zip
+#/MOC20487/Allfiles/20487C#/Mod11/*.zip
+#/MOC20532/*.zip
+#/MOC20533/Allfiles/Demos#/Mod05/*.zip
+#/MOC20533/Allfiles/Labfiles/Lab07/Starter/DSC/*.zip
+#/MOC20533/Allfiles/Labfiles/Lab10/Starter/DSC/*.zip
+
+# Ignore all "debug", "release", "obj" and "bin" folders.
+**/debug
+**/release
+**/obj
+**/bin
+
+# Ignore all "packages" folders.
+**/packages
+
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod01/Democode/PhotoSharingSample/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod01/Labfiles/PhotoSharingSample/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod03/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod03/Democode/OperasWebSites_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod03/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod03/Labfiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod04/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod04/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod04/Labfiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod04/Labfiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod05/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod05/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod05/LabFiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod05/LabFiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod06/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod06/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod06/LabFiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod06/LabFiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod07/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod07/Democode/OperasWebSite_EndFirstDemo/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod07/Democode/OperasWebSite_EndSecondDemo/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod07/LabFiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod07/LabFiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod08/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod08/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod08/LabFiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod08/LabFiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod09/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod09/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod09/LabFiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod09/LabFiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod10/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod10/Democode/OperasWebSite_EndFirstDemo/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod10/Democode/OperasWebSite_EndSecondDemo/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod10/LabFiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod10/LabFiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod11/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod11/Democode/OperasWebSite_EndFirstDemo/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod11/Democode/OperasWebSite_EndSecondDemo/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod11/Labfiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod11/Labfiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod12/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod12/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod12/Labfiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod12/Labfiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod13/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod13/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod13/Labfiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod13/Labfiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod14/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod14/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod14/Labfiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod14/Labfiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod15/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod15/Democode/OperasWebSite_End/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod15/LabFiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod15/LabFiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod16/Democode/OperasWebSite/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod16/LabFiles/Solution/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486B#/Mod16/LabFiles/Starter/PhotoSharingApplication/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod01/Democode/PhotoSharingSample/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod01/Labfiles/PhotoSharingSample/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod03/Labfiles/Solution/PhotoSharingApplication2/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod04/Democode/OperasWebsites_04_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod04/Labfiles/PhotoSharingApplication_04_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod04/Labfiles/PhotoSharingApplication_04_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod05/LabFiles/PhotoSharingApplication_05_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod05/LabFiles/PhotoSharingApplication_05_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod06/Democode/OperasWebsites_06_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod06/LabFiles/PhotoSharingApplication_06_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod06/LabFiles/PhotoSharingApplication_06_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod07/Democode/OperasWebsites_07_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod07/LabFiles/PhotoSharingApplication_07_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod07/LabFiles/PhotoSharingApplication_07_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod08/Democode/OperasWebsites_08_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod08/LabFiles/PhotoSharingApplication_08_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod08/LabFiles/PhotoSharingApplication_08_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod09/Democode/OperasWebsites_09_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod09/LabFiles/PhotoSharingApplication_09_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod09/LabFiles/PhotoSharingApplication_09_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod10/Democode/OperasWebsites_10_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod10/Democode/OperasWebsites_10_end_second/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod10/LabFiles/PhotoSharingApplication_10_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod10/LabFiles/PhotoSharingApplication_10_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod11/Democode/OperasWebsites_11_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod11/LabFiles/PhotoSharingApplication_11_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod11/LabFiles/PhotoSharingApplication_11_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod12/Democode/OperasWebsites_12_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod12/LabFiles/PhotoSharingApplication_12_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod12/LabFiles/PhotoSharingApplication_12_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod13/LabFiles/PhotoSharingApplication_13_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod13/LabFiles/PhotoSharingApplication_13_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod14/Democode/OperasWebsites_14_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod14/LabFiles/PhotoSharingApplication_14_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod14/LabFiles/PhotoSharingApplication_14_end/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod15/LabFiles/PhotoSharingApplication_15_begin/packages
+#/MCSABootcamp/20486 Labs/Allfiles/20486C#/Mod15/LabFiles/PhotoSharingApplication_15_end/packages
+#/MCSABootcamp/20486C#/Mod03/Democode/OperaWebSites/packages
+#/MOC20483#/Mod07/Democode/Demo1/Solution/FourthCoffee.Employees/packages
+#/MOC20483#/Mod07/Democode/Demo1/Starter/FourthCoffee.Employees/packages
+#/MOC20483#/Mod07/Democode/Demo2/FourthCoffee.Employees/packages
+#/MOC20483#/Mod07/Democode/Demo3/FourthCoffee.Employees/packages
+#/MOC20483#/Mod07/Democode/Demo4/FourthCoffee.Employees/packages
+#/MOC20483#/Mod07/Labfiles/Solution/Exercise 1/packages
+#/MOC20483#/Mod07/Labfiles/Solution/Exercise 2/packages
+#/MOC20483#/Mod07/Labfiles/Solution/Exercise 3/packages
+#/MOC20483#/Mod07/Labfiles/Starter/Exercise 2/packages
+#/MOC20483#/Mod07/Labfiles/Starter/Exercise 3/packages
+#/MOC20483#/Mod08/Labfiles/Solution/Exercise 1/packages
+#/MOC20483#/Mod08/Labfiles/Solution/Exercise 2/packages
+#/MOC20483#/Mod08/Labfiles/Solution/Exercise 3/packages
+#/MOC20483#/Mod08/Labfiles/Starter/Exercise 1/packages
+#/MOC20483#/Mod08/Labfiles/Starter/Exercise 2/packages
+#/MOC20483#/Mod08/Labfiles/Starter/Exercise 3/packages
+#/MOC20483#/Mod09/Labfiles/Solution/Exercise 1/packages
+#/MOC20483#/Mod09/Labfiles/Solution/Exercise 2/packages
+#/MOC20483#/Mod09/Labfiles/Solution/Exercise 3/packages
+#/MOC20483#/Mod09/Labfiles/Starter/Exercise 1/packages
+#/MOC20483#/Mod09/Labfiles/Starter/Exercise 2/packages
+#/MOC20483#/Mod09/Labfiles/Starter/Exercise 3/packages
+#/MOC20483#/Mod10/Labfiles/Solution/Exercise 1/packages
+#/MOC20483#/Mod10/Labfiles/Solution/Exercise 2/packages
+#/MOC20483#/Mod10/Labfiles/Starter/Exercise 1/packages
+#/MOC20483#/Mod10/Labfiles/Starter/Exercise 2/packages
+#/MOC20483#/Mod11/Labfiles/Solution/Exercise 1/packages
+#/MOC20483#/Mod11/Labfiles/Solution/Exercise 2/packages
+#/MOC20483#/Mod11/Labfiles/Starter/Exercise 1/packages
+#/MOC20483#/Mod11/Labfiles/Starter/Exercise 2/packages
+#/MOC20483#/Mod12/Labfiles/Solution/Exercise 1/packages
+#/MOC20483#/Mod12/Labfiles/Solution/Exercise 2/packages
+#/MOC20483#/Mod12/Labfiles/Solution/Exercise 3/packages
+#/MOC20483#/Mod12/Labfiles/Starter/Exercise 1/packages
+#/MOC20483#/Mod12/Labfiles/Starter/Exercise 2/packages
+#/MOC20483#/Mod12/Labfiles/Starter/Exercise 3/packages
+#/MOC20483#/Mod13/Labfiles/Solution/Exercise 1/packages
+#/MOC20483#/Mod13/Labfiles/Starter/Exercise 1/packages
+#/MOC20486/Allfiles/20486C#/Mod01/Democode/PhotoSharingSample/packages
+#/MOC20486/Allfiles/20486C#/Mod01/Labfiles/PhotoSharingSample/packages
+#/MOC20486/Allfiles/20486C#/Mod03/Democode/OperasWebSites/packages
+#/MOC20486/Allfiles/20486C#/Mod03/Labfiles/Solution/PhotoSharingApplication2/packages
+#/MOC20486/Allfiles/20486C#/Mod04/Labfiles/PhotoSharingApplication_04_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod04/Labfiles/PhotoSharingApplication_04_end/packages
+#/MOC20486/Allfiles/20486C#/Mod05/LabFiles/PhotoSharingApplication_05_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod05/LabFiles/PhotoSharingApplication_05_end/packages
+#/MOC20486/Allfiles/20486C#/Mod06/LabFiles/PhotoSharingApplication_06_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod06/LabFiles/PhotoSharingApplication_06_end/packages
+#/MOC20486/Allfiles/20486C#/Mod07/Democode/OperasWebsites_07_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod07/LabFiles/PhotoSharingApplication_07_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod07/LabFiles/PhotoSharingApplication_07_end/packages
+#/MOC20486/Allfiles/20486C#/Mod08/Democode/OperasWebsites_08_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod08/LabFiles/PhotoSharingApplication_08_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod08/LabFiles/PhotoSharingApplication_08_end/packages
+#/MOC20486/Allfiles/20486C#/Mod09/Democode/OperasWebsites_09_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod09/LabFiles/PhotoSharingApplication_09_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod09/LabFiles/PhotoSharingApplication_09_end/packages
+#/MOC20486/Allfiles/20486C#/Mod10/Democode/OperasWebsites_10_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod10/LabFiles/PhotoSharingApplication_10_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod10/LabFiles/PhotoSharingApplication_10_end/packages
+#/MOC20486/Allfiles/20486C#/Mod11/Democode/OperasWebsites_11_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod11/LabFiles/PhotoSharingApplication_11_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod11/LabFiles/PhotoSharingApplication_11_end/packages
+#/MOC20486/Allfiles/20486C#/Mod12/Democode/OperasWebsites_12_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod12/LabFiles/PhotoSharingApplication_12_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod12/LabFiles/PhotoSharingApplication_12_end/packages
+#/MOC20486/Allfiles/20486C#/Mod13/Democode/OperasWebsites_13_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod13/LabFiles/PhotoSharingApplication_13_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod13/LabFiles/PhotoSharingApplication_13_end/packages
+#/MOC20486/Allfiles/20486C#/Mod14/Democode/OperasWebsites_14_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod14/LabFiles/PhotoSharingApplication_14_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod14/LabFiles/PhotoSharingApplication_14_end/packages
+#/MOC20486/Allfiles/20486C#/Mod15/Democode/OperasWebsites_15_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod15/LabFiles/PhotoSharingApplication_15_begin/packages
+#/MOC20486/Allfiles/20486C#/Mod15/LabFiles/PhotoSharingApplication_15_end/packages
+#/MOC20487/Allfiles/20487C#/Mod01/DemoFiles/BlueYonderDemo/BlueYonder.Companion.Server/packages
+#/MOC20487/Allfiles/20487C#/Mod02/Democode/CRUD/Begin/packages
+#/MOC20487/Allfiles/20487C#/Mod02/Democode#/MyFirstEF/packages
+#/MOC20487/Allfiles/20487C#/Mod02/Democode/StoredProcedure/Begin/packages
+#/MOC20487/Allfiles/20487C#/Mod02/Democode/UsingLINQtoEntities/Begin/packages
+#/MOC20487/Allfiles/20487C#/Mod03/Democode/ConsumingFromHttpClient/Begin/HttpClientApplication/packages
+#/MOC20487/Allfiles/20487C#/Mod03/Democode/ConsumingFromJQuery/Begin/JQueryClient/packages
+#/MOC20487/Allfiles/20487C#/Mod03/Democode/FirstWebApiService/begin#/MyApp/packages
+#/MOC20487/Allfiles/20487C#/Mod03/Democode/ThrowHttpResponseException/Begin/packages
+#/MOC20487/Allfiles/20487C#/Mod04/DemoFiles/AsynchronousActions/begin/AsynchronousActions/packages
+#/MOC20487/Allfiles/20487C#/Mod04/DemoFiles/DependencyResolver/packages
+#/MOC20487/Allfiles/20487C#/Mod04/DemoFiles/ImagesWithMediaTypeFormatter/packages
+#/MOC20487/Allfiles/20487C#/Mod04/DemoFiles/ODataService/begin/ConsumingODataService/packages
+#/MOC20487/Allfiles/20487C#/Mod04/DemoFiles/RequestResponseFlow/begin/RequestResponseFlow/packages
+#/MOC20487/Allfiles/20487C#/Mod04/DemoFiles/WebAPISecurity/packages
+#/MOC20487/Allfiles/20487C#/Mod06/Democode/DeployWebApp#/MyWebSite/packages
+#/MOC20487/Allfiles/20487C#/Mod07/DemoFiles/QueuesDemo/Begin/packages
+#/MOC20487/Allfiles/20487C#/Mod07/DemoFiles/ServiceBusRelay/begin/ServiceBusRelay/packages
+#/MOC20487/Allfiles/20487C#/Mod07/DemoFiles/TopicsDemo/packages
+#/MOC20487/Allfiles/20487C#/Mod08/DemoFiles/Begin/WebConfigTransformations/packages
+#/MOC20487/Allfiles/20487C#/Mod08/DemoFiles/DeployWebApp/Begin#/MyApp/packages
+#/MOC20487/Allfiles/20487C#/Mod09/DemoFiles/BlobsStorageEmulator/packages
+#/MOC20487/Allfiles/20487C#/Mod09/DemoFiles/TableStorage/packages
+#/MOC20487/Allfiles/20487C#/Mod09/DemoFiles/WorkingWithAzureQueues/packages
+#/MOC20487/Allfiles/20487C#/Mod10/DemoFiles/AzureDiagnostics/Begin/AzureDiagnostics/packages
+#/MOC20487/Allfiles/20487C#/Mod10/DemoFiles/WebSiteMonitoring/SimpleWebApplication/packages
+#/MOC20487/Allfiles/20487C#/Mod11/B2CSample/packages
+#/MOC20487/Allfiles/20487C#/Mod12/DemoFiles/ScalingAppServices/packages
+#/MOC20487/Allfiles#/Mod01/DemoFiles/BlueYonderDemo/BlueYonder.Companion.Client/packages
+#/MOC20487/Allfiles#/Mod01/DemoFiles/BlueYonderDemo/BlueYonder.Companion.Server/packages
+#/MOC20487/Allfiles#/Mod02/Democode#/MyFirstEF/packages
+#/MOC20487/Allfiles#/Mod04/Labfiles/end/BlueYonder.Companion/packages
+#/MOC20532#/Mod05/DemoCode/Contoso.Help/packages
+#/MOC20532#/Mod07/DemoCode/Contoso.Storage.Table/packages
+#/MOC20533/Allfiles/Demofiles#/Mod05/AdatumWebsite/packages
+#/MOC20533/Allfiles/Demofiles#/Mod08/SimpleCloudService/packages
+#/MOC20533/Allfiles/Demos#/Mod05/20533D0502MobileApp_Runtime/packages
+#/MOC20533/Allfiles/Demos#/Mod08/SimpleCloudService/packages
+#/MOC20533/Allfiles/Labfiles/Lab05/Starter/AdatumWebsite/packages
+#/MOC20533/Allfiles/Labfiles/Lab05/Starter/NewAdatumWebsite/packages
+/WebServiceDemo/WSDemo/packages

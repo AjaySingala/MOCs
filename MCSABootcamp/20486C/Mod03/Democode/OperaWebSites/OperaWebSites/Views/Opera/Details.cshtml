@@ -1,0 +1,61 @@
+﻿@model OperaWebSites.Models.Opera
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+@* this is a razor comment*@
+<span>This is calculated value: @(Model.Price * 1.2)</span>
+
+<div>
+    @Model.Title
+    @Model.Composer
+    @Model.Year
+</div>
+
+
+
+<img alt="some message" src="@Url.Action("GetImage", new { id = Model.OperaID })" />
+
+<div>
+    <h4>Opera</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Composer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Composer)
+        </dd>
+
+    </dl>
+</div
+
+<div>
+    @*@Html.Partial("_Comments")*@
+    @Html.Action("_CommentsForOpera", "Comment", new { id = Model.OperaID } )
+</div>
+
+<p>
+    @Html.ActionLink("Edit Record", "Edit", new { id = Model.OperaID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

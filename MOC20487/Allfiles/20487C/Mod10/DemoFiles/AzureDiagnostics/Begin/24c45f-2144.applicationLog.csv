@@ -1,0 +1,4 @@
+date,level,applicationName,instanceId,eventTickCount,eventId,pid,tid,message,activityId
+2018-04-13T15:33:03,Information,AzureDiagnosticsExample20487C,24c45f,636592303834412219,0,2144,1,"DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246 (official)",
+2018-04-13T15:33:03,Information,AzureDiagnosticsExample20487C,24c45f,636592303834707023,0,2144,1,"Reporting will use isolated storage with scope: Domain, Assembly, Machine",
+2018-04-13T15:33:04,Verbose,AzureDiagnosticsExample20487C,24c45f,636592303843301167,0,2144,-1,Another message to be logged in Storage blob.,

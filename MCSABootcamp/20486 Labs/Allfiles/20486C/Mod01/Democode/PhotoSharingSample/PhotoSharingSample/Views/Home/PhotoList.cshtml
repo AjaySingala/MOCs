@@ -1,0 +1,85 @@
+﻿@model IEnumerable<PhotoSharingApplication.Models.Photo>
+
+    @{
+        ViewBag.Title = "Photo List";
+        ViewBag.Message = "Some message";
+    }
+
+
+    <text>
+        some lines of information
+        displayed here.
+    </text>
+
+    @*@(
+        @: This line displayed as is.
+        )*@
+
+    <p>@Html.Raw("<b>bold text</b>")</p>
+
+    <h2>Photo List</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhotoFile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageMimeType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedDate)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            @*@Html.Partial("_PhotoPartial", (item))*@
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhotoFile)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageMimeType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedDate)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.PhotoID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.PhotoID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.PhotoID })
+                </td>
+            </tr>
+        }
+
+    </table>

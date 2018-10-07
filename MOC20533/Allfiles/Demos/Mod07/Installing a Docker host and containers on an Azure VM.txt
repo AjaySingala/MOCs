@@ -1,0 +1,20 @@
+docker-machine create -d azure --azure-subscription-id “acfa5b40-305f-49b6-b379-4e68a29c0da7” --azure-ssh-user azureuser --azure-open-port 80 --azure-size "Standard_D2_v2" --azure-resource-group 20533D0701-DemoRG myvm02
+
+@FOR /f "tokens=*" %i IN ('docker-machine env myvm02') DO %i
+
+docker run -d -p 80:80 --restart=always nginx
+
+docker-machine ip myvm02
+	# 52.160.43.57 -> Browse to the ip
+
+docker ps
+	# note the Container id
+
+# Stop and remove a container
+docker stop <container id>
+docker rm <container id>
+
+# remove an image
+docker images -a
+	# note the Image Id
+docker rmi <image id>

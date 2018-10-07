@@ -1,0 +1,471 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180405053734
+Username: ASINGALA-PC\asingala
+RunAs User: ASINGALA-PC\asingala
+Configuration Name: 
+Machine: ASINGALA-PC (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7940
+PSVersion: 5.1.16299.251
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.251
+BuildVersion: 10.0.16299.251
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Temp\MOC20533\Allfiles\Logs\New-20533DEnvironment-11.log
+
+Now setting up Lab 11
+
+
+Account          : spsms03@hotmail.com
+SubscriptionName : Visual Studio Enterprise with MSDN
+SubscriptionId   : acfa5b40-305f-49b6-b379-4e68a29c0da7
+TenantId         : 93bf7472-983c-429f-bd89-4cf59c7aa333
+Environment      : AzureCloud
+
+Using the subscription:  Visual Studio Enterprise with MSDN  Id:  acfa5b40-305f-49b6-b379-4e68a29c0da7
+
+Name               : [spsms03@hotmail.com, acfa5b40-305f-49b6-b379-4e68a29c0da7]
+Account            : spsms03@hotmail.com
+Environment        : AzureCloud
+Subscription       : acfa5b40-305f-49b6-b379-4e68a29c0da7
+Tenant             : 93bf7472-983c-429f-bd89-4cf59c7aa333
+TokenCache         : Microsoft.Azure.Commands.Common.Authentication.AuthenticationStoreTokenCache
+VersionProfile     :
+ExtendedProperties : {}
+
+1    eastasia
+2    southeastasia
+3    centralus
+4    eastus
+5    eastus2
+6    westus
+7    northcentralus
+8    southcentralus
+9    northeurope
+10    westeurope
+11    japanwest
+12    japaneast
+13    brazilsouth
+14    australiaeast
+15    australiasoutheast
+16    southindia
+17    centralindia
+18    westindia
+19    canadacentral
+20    canadaeast
+21    uksouth
+22    ukwest
+23    westcentralus
+24    westus2
+25    koreacentral
+26    koreasouth
+27    francecentral
+28    francesouth
+
+Enter the number corresponding to the Azure region you want to use:
+Your Azure region is:  westindia
+lab startup folder is D:\Temp\MOC20533\Allfiles\Labfiles\Lab11\Starter
+VERBOSE: Performing the operation "Replacing resource group ..." on target "".
+VERBOSE: 05:38:30 - Created resource group '20533D1101-LabRG' in location 'westindia'
+
+ResourceGroupName : 20533D1101-LabRG
+Location          : westindia
+ProvisioningState : Succeeded
+Tags              :
+TagsTable         :
+ResourceId        : /subscriptions/acfa5b40-305f-49b6-b379-4e68a29c0da7/resourceGroups/20533D1101-LabRG
+
+VERBOSE: Performing the operation "Creating Deployment" on target "20533D1101-LabRG".
+VERBOSE: 05:38:40 - Template is valid.
+VERBOSE: 05:38:41 - Create template deployment 'azuredeploy-0405-0938'
+VERBOSE: 05:38:41 - Checking deployment status in 5 seconds
+VERBOSE: 05:38:47 - Checking deployment status in 5 seconds
+VERBOSE: 05:38:53 - Resource Microsoft.Network/virtualNetworks '20533D1101-vnet' provisioning status is succeeded
+VERBOSE: 05:38:53 - Resource Microsoft.Compute/availabilitySets '20533D1101-avset' provisioning status is succeeded
+VERBOSE: 05:38:53 - Resource Microsoft.Storage/storageAccounts 'boc76jl5mhayo' provisioning status is running
+VERBOSE: 05:38:53 - Checking deployment status in 13 seconds
+VERBOSE: 05:39:06 - Resource Microsoft.Network/loadBalancers/inboundNatRules '20533D1101-ilb/RDP-VM1' provisioning status is succeeded
+VERBOSE: 05:39:06 - Resource Microsoft.Network/loadBalancers/inboundNatRules '20533D1101-ilb/RDP-VM0' provisioning status is running
+VERBOSE: 05:39:06 - Resource Microsoft.Network/loadBalancers '20533D1101-ilb' provisioning status is succeeded
+VERBOSE: 05:39:06 - Resource Microsoft.Network/publicIPAddresses '20533D1101-pip' provisioning status is succeeded
+VERBOSE: 05:39:06 - Checking deployment status in 17 seconds
+VERBOSE: 05:39:23 - Resource Microsoft.Network/networkInterfaces '20533D1101-nic0' provisioning status is succeeded
+VERBOSE: 05:39:23 - Resource Microsoft.Network/networkInterfaces '20533D1101-nic1' provisioning status is succeeded
+VERBOSE: 05:39:23 - Resource Microsoft.Network/loadBalancers/inboundNatRules '20533D1101-ilb/RDP-VM0' provisioning status is succeeded
+VERBOSE: 05:39:23 - Checking deployment status in 5 seconds
+VERBOSE: 05:39:28 - Resource Microsoft.Storage/storageAccounts 'boc76jl5mhayo' provisioning status is succeeded
+VERBOSE: 05:39:28 - Checking deployment status in 5 seconds
+VERBOSE: 05:39:33 - Resource Microsoft.Compute/virtualMachines '20533D1101-vm0' provisioning status is running
+VERBOSE: 05:39:33 - Checking deployment status in 9 seconds
+VERBOSE: 05:39:43 - Resource Microsoft.Compute/virtualMachines '20533D1101-vm1' provisioning status is running
+VERBOSE: 05:39:43 - Checking deployment status in 5 seconds
+VERBOSE: 05:39:48 - Checking deployment status in 5 seconds
+VERBOSE: 05:39:53 - Checking deployment status in 5 seconds
+VERBOSE: 05:39:58 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:03 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:09 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:14 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:19 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:24 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:30 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:35 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:40 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:45 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:50 - Checking deployment status in 5 seconds
+VERBOSE: 05:40:55 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:01 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:06 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:11 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:16 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:21 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:26 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:32 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:37 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:42 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:47 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:52 - Checking deployment status in 5 seconds
+VERBOSE: 05:41:57 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:02 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:08 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:13 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:18 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:23 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:28 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:33 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:38 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:44 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:49 - Checking deployment status in 5 seconds
+VERBOSE: 05:42:54 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:00 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:05 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:10 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:15 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:20 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:25 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:30 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:36 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:41 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:46 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:51 - Checking deployment status in 5 seconds
+VERBOSE: 05:43:56 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:02 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:07 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:12 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:18 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:23 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:28 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:33 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:38 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:43 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:48 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:54 - Checking deployment status in 5 seconds
+VERBOSE: 05:44:59 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:04 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:09 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:14 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:20 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:25 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:30 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:35 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:40 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:45 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:51 - Checking deployment status in 5 seconds
+VERBOSE: 05:45:56 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:01 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:06 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:12 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:17 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:22 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:27 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:32 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:37 - Resource Microsoft.Compute/virtualMachines '20533D1101-vm0' provisioning status is succeeded
+VERBOSE: 05:46:37 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:42 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:47 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:53 - Checking deployment status in 5 seconds
+VERBOSE: 05:46:58 - Checking deployment status in 5 seconds
+VERBOSE: 05:47:03 - Checking deployment status in 5 seconds
+VERBOSE: 05:47:09 - Checking deployment status in 5 seconds
+VERBOSE: 05:47:14 - Checking deployment status in 5 seconds
+VERBOSE: 05:47:19 - Checking deployment status in 5 seconds
+VERBOSE: 05:47:24 - Checking deployment status in 5 seconds
+VERBOSE: 05:47:29 - Resource Microsoft.Compute/virtualMachines '20533D1101-vm1' provisioning status is succeeded
+VERBOSE: 05:47:29 - Checking deployment status in 5 seconds
+
+DeploymentName          : azuredeploy-0405-0938
+CorrelationId           : 0d21c385-6169-46f6-a060-3f3b0b17e1db
+ResourceGroupName       : 20533D1101-LabRG
+ProvisioningState       : Succeeded
+Timestamp               : 05-04-2018 09:47:31
+Mode                    : Incremental
+TemplateLink            :
+TemplateLinkString      :
+DeploymentDebugLogLevel :
+Parameters              : {[adminUsername,
+                          Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkModels.DeploymentVariable],
+                          [adminPassword,
+                          Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkModels.DeploymentVariable],
+                          [vmNamePrefix,
+                          Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkModels.DeploymentVariable], [lbName,
+                          Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkModels.DeploymentVariable]...}
+ParametersString        :
+                          Name             Type                       Value
+                          ===============  =========================  ==========
+                          adminUsername    String                     Student
+                          adminPassword    String                     Pa55w.rd1234
+                          vmNamePrefix     String                     20533D1101-vm
+                          lbName           String                     20533D1101-ilb
+                          nicNamePrefix    String                     20533D1101-nic
+                          publicIPAddressName  String                     20533D1101-pip
+                          vnetName         String                     20533D1101-vnet
+                          imagePublisher   String                     MicrosoftWindowsServer
+                          imageOffer       String                     WindowsServer
+                          imageSKU         String                     2016-Datacenter
+                          vmSize           String                     Standard_A1
+
+Outputs                 :
+OutputsString           :
+
+
+Lab 11 setup is complete
+Started at 04/05/2018 05:37:34
+Ended at 04/05/2018 05:47:35
+
+Total elapsed time is 10 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20180405054735
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20180406125937
+Username: ASINGALA-PC\asingala
+RunAs User: ASINGALA-PC\asingala
+Configuration Name: 
+Machine: ASINGALA-PC (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7940
+PSVersion: 5.1.16299.251
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.251
+BuildVersion: 10.0.16299.251
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Temp\MOC20533\Allfiles\Logs\New-20533DEnvironment-11.log
+
+Now setting up Lab 11
+Add-AzureRmAccount : authentication_canceled: User canceled authentication
+At D:\Temp\MOC20533\Allfiles\Modules\Add-20533DEnvironment\Add-20533DEnvironment.psm1:81 char:13
++         11 {Add-AzureRmAccount; Select-20533DSubscriptionARM; Select- ...
++             ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : CloseError: (:) [Add-AzureRmAccount], AadAuthenticationCanceledException
+    + FullyQualifiedErrorId : Microsoft.Azure.Commands.Profile.AddAzureRMAccountCommand
+Add-AzureRmAccount : authentication_canceled: User canceled authentication
+At D:\Temp\MOC20533\Allfiles\Modules\Add-20533DEnvironment\Add-20533DEnvironment.psm1:81 char:13
++         11 {Add-AzureRmAccount; Select-20533DSubscriptionARM; Select- ...
++             ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : CloseError: (:) [Add-AzureRmAccount], AadAuthenticationCanceledException
+    + FullyQualifiedErrorId : Microsoft.Azure.Commands.Profile.AddAzureRMAccountCommand
+
+Using the subscription:  Visual Studio Enterprise with MSDN  Id:  acfa5b40-305f-49b6-b379-4e68a29c0da7
+
+
+Name             : [spsms03@hotmail.com, acfa5b40-305f-49b6-b379-4e68a29c0da7]
+Account          : spsms03@hotmail.com
+SubscriptionName : Visual Studio Enterprise with MSDN
+TenantId         : 93bf7472-983c-429f-bd89-4cf59c7aa333
+Environment      : AzureCloud
+
+1    eastasia
+2    southeastasia
+3    centralus
+4    eastus
+5    eastus2
+6    westus
+7    northcentralus
+8    southcentralus
+9    northeurope
+10    westeurope
+11    japanwest
+12    japaneast
+13    brazilsouth
+14    australiaeast
+15    australiasoutheast
+16    southindia
+17    centralindia
+18    westindia
+19    canadacentral
+20    canadaeast
+21    uksouth
+22    ukwest
+23    westcentralus
+24    westus2
+25    koreacentral
+26    koreasouth
+27    francecentral
+28    francesouth
+
+Enter the number corresponding to the Azure region you want to use:
+Your Azure region is:  centralus
+lab startup folder is D:\Temp\MOC20533\Allfiles\Labfiles\Lab11\Starter
+VERBOSE: Performing the operation "Replacing resource group ..." on target "".
+VERBOSE: 13:00:18 - Created resource group '20533D1101-LabRG' in location 'centralus'
+
+ResourceGroupName : 20533D1101-LabRG
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              :
+TagsTable         :
+ResourceId        : /subscriptions/acfa5b40-305f-49b6-b379-4e68a29c0da7/resourceGroups/20533D1101-LabRG
+
+VERBOSE: Performing the operation "Creating Deployment" on target "20533D1101-LabRG".
+VERBOSE: 13:00:27 - Template is valid.
+VERBOSE: 13:00:33 - Create template deployment 'azuredeploy-0406-1700'
+VERBOSE: 13:00:33 - Checking deployment status in 5 seconds
+VERBOSE: 13:00:40 - Checking deployment status in 5 seconds
+VERBOSE: 13:00:46 - Resource Microsoft.Storage/storageAccounts 'boc76jl5mhayo' provisioning status is running
+VERBOSE: 13:00:47 - Checking deployment status in 16 seconds
+VERBOSE: 13:01:04 - Resource Microsoft.Network/loadBalancers '20533D1101-ilb' provisioning status is succeeded
+VERBOSE: 13:01:04 - Resource Microsoft.Network/publicIPAddresses '20533D1101-pip' provisioning status is succeeded
+VERBOSE: 13:01:04 - Resource Microsoft.Network/virtualNetworks '20533D1101-vnet' provisioning status is succeeded
+VERBOSE: 13:01:04 - Resource Microsoft.Compute/availabilitySets '20533D1101-avset' provisioning status is succeeded
+VERBOSE: 13:01:04 - Checking deployment status in 5 seconds
+VERBOSE: 13:01:10 - Resource Microsoft.Network/loadBalancers/inboundNatRules '20533D1101-ilb/RDP-VM0' provisioning status is succeeded
+VERBOSE: 13:01:10 - Resource Microsoft.Network/loadBalancers/inboundNatRules '20533D1101-ilb/RDP-VM1' provisioning status is running
+VERBOSE: 13:01:11 - Checking deployment status in 12 seconds
+VERBOSE: 13:01:24 - Resource Microsoft.Network/networkInterfaces '20533D1101-nic0' provisioning status is succeeded
+VERBOSE: 13:01:24 - Resource Microsoft.Storage/storageAccounts 'boc76jl5mhayo' provisioning status is succeeded
+VERBOSE: 13:01:25 - Checking deployment status in 5 seconds
+VERBOSE: 13:01:31 - Resource Microsoft.Compute/virtualMachines '20533D1101-vm0' provisioning status is running
+VERBOSE: 13:01:31 - Resource Microsoft.Network/loadBalancers/inboundNatRules '20533D1101-ilb/RDP-VM1' provisioning status is succeeded
+VERBOSE: 13:01:31 - Checking deployment status in 8 seconds
+VERBOSE: 13:01:40 - Resource Microsoft.Network/networkInterfaces '20533D1101-nic1' provisioning status is succeeded
+VERBOSE: 13:01:41 - Checking deployment status in 5 seconds
+VERBOSE: 13:01:47 - Resource Microsoft.Compute/virtualMachines '20533D1101-vm1' provisioning status is running
+VERBOSE: 13:01:48 - Checking deployment status in 9 seconds
+VERBOSE: 13:01:58 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:05 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:12 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:19 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:26 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:33 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:39 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:46 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:52 - Checking deployment status in 5 seconds
+VERBOSE: 13:02:59 - Checking deployment status in 5 seconds
+VERBOSE: 13:03:06 - Checking deployment status in 5 seconds
+VERBOSE: 13:03:13 - Checking deployment status in 5 seconds
+VERBOSE: 13:03:20 - Checking deployment status in 5 seconds
+VERBOSE: 13:03:26 - Checking deployment status in 5 seconds
+VERBOSE: 13:03:33 - Checking deployment status in 5 seconds
+VERBOSE: 13:03:40 - Checking deployment status in 5 seconds
+VERBOSE: 13:03:46 - Checking deployment status in 5 seconds
+VERBOSE: 13:03:53 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:00 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:06 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:13 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:20 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:27 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:33 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:41 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:47 - Checking deployment status in 5 seconds
+VERBOSE: 13:04:54 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:00 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:08 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:14 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:21 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:27 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:34 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:41 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:47 - Checking deployment status in 5 seconds
+VERBOSE: 13:05:54 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:01 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:08 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:14 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:21 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:27 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:34 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:41 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:47 - Checking deployment status in 5 seconds
+VERBOSE: 13:06:54 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:01 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:08 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:14 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:21 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:28 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:35 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:42 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:48 - Checking deployment status in 5 seconds
+VERBOSE: 13:07:55 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:02 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:09 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:16 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:22 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:29 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:35 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:42 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:49 - Checking deployment status in 5 seconds
+VERBOSE: 13:08:55 - Checking deployment status in 5 seconds
+VERBOSE: 13:09:01 - Resource Microsoft.Compute/virtualMachines '20533D1101-vm1' provisioning status is succeeded
+VERBOSE: 13:09:02 - Checking deployment status in 5 seconds
+VERBOSE: 13:09:09 - Checking deployment status in 5 seconds
+VERBOSE: 13:09:16 - Checking deployment status in 5 seconds
+VERBOSE: 13:09:22 - Checking deployment status in 5 seconds
+VERBOSE: 13:09:29 - Checking deployment status in 5 seconds
+VERBOSE: 13:09:36 - Checking deployment status in 5 seconds
+VERBOSE: 13:09:42 - Resource Microsoft.Compute/virtualMachines '20533D1101-vm0' provisioning status is succeeded
+
+DeploymentName          : azuredeploy-0406-1700
+CorrelationId           : 86a4b1fe-deb3-458c-8627-c6bb2052a29b
+ResourceGroupName       : 20533D1101-LabRG
+ProvisioningState       : Succeeded
+Timestamp               : 06-04-2018 17:09:41
+Mode                    : Incremental
+TemplateLink            :
+TemplateLinkString      :
+DeploymentDebugLogLevel :
+Parameters              : {[adminUsername,
+                          Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkModels.DeploymentVariable],
+                          [adminPassword,
+                          Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkModels.DeploymentVariable],
+                          [vmNamePrefix,
+                          Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkModels.DeploymentVariable], [lbName,
+                          Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkModels.DeploymentVariable]...}
+ParametersString        :
+                          Name             Type                       Value
+                          ===============  =========================  ==========
+                          adminUsername    String                     Student
+                          adminPassword    String                     Pa55w.rd1234
+                          vmNamePrefix     String                     20533D1101-vm
+                          lbName           String                     20533D1101-ilb
+                          nicNamePrefix    String                     20533D1101-nic
+                          publicIPAddressName  String                     20533D1101-pip
+                          vnetName         String                     20533D1101-vnet
+                          imagePublisher   String                     MicrosoftWindowsServer
+                          imageOffer       String                     WindowsServer
+                          imageSKU         String                     2016-Datacenter
+                          vmSize           String                     Standard_A1
+
+Outputs                 :
+OutputsString           :
+
+
+Lab 11 setup is complete
+Started at 04/06/2018 12:59:37
+Ended at 04/06/2018 13:09:43
+
+Total elapsed time is 10 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20180406130943
+**********************

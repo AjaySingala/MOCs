@@ -1,0 +1,68 @@
+﻿@model OperasWebSites.Models.Opera
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Opera</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Composer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Composer)
+        </dd>
+
+    </dl>
+</div>
+<div>
+    @Html.Partial("_CommentsList", Model.Comments)
+</div>
+
+<div>
+    <p>Using Html.Action</p>
+    @Html.Action("_CommentsForArticle", "Comments", new { ArticleID = Model.OperaID })
+</div>
+
+<div>
+    <p>Using Html.RenderAction</p>
+    @{Html.RenderAction("_CommentsForArticle", "Comments", new { ArticleID = Model.OperaID }); }
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OperaID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+@section AnotherSection
+{
+    <b>This is just another section I created.</b>
+}
+
+@section MenuBar
+{
+    <p>This is a sample Menu</p>
+    <h2>A Heading 2</h2>
+    <h3>A Heading 3</h3>
+}

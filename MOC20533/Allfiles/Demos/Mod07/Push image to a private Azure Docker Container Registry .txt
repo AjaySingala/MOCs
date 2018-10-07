@@ -1,0 +1,32 @@
+# Log in to a registry.
+#	where -u ApplicationID of the service principal
+docker login ajaydockerregistry.azurecr.io -u <Azure AD service principal> -p <password>
+
+# Pull the official Nginx image
+docker pull nginx
+
+# Run the container locally
+docker run -it --rm -p 8080:80 nginx
+
+# browse to http://localhost:8080
+
+# Create an alias of the image
+# Use docker tag to create an alias of the image with the fully qualified path to your registry.
+# This example specifies the "samples" namespace to avoid clutter in the root of the registry
+docker tag nginx myregistry.azurecr.io/samples/nginx
+
+# Push the image to your registry
+# Now that you've tagged the image with the fully qualified path to your private registry, you can push it to the registry 
+docker push myregistry.azurecr.io/samples/nginx
+
+# Pull the image from your registry
+docker pull myregistry.azurecr.io/samples/nginx
+
+# Start the Nginx container
+docker run -it --rm -p 8080:80 myregistry.azurecr.io/samples/nginx
+
+# Browse to http://localhost:8080 to view the running container
+
+# Remove the image (optional)
+# If you no longer need the Nginx image, you can delete it locally 
+docker rmi myregistry.azurecr.io/samples/nginx

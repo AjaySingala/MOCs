@@ -1,0 +1,164 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180401041627
+Username: ASINGALA-PC\asingala
+RunAs User: ASINGALA-PC\asingala
+Configuration Name: 
+Machine: ASINGALA-PC (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7972
+PSVersion: 5.1.16299.251
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.251
+BuildVersion: 10.0.16299.251
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Temp\MOC20533\Allfiles\Logs\New-20533DEnvironment-5.log
+
+Now setting up Lab 5
+
+
+Account          : spsms03@hotmail.com
+SubscriptionName : Visual Studio Enterprise with MSDN
+SubscriptionId   : acfa5b40-305f-49b6-b379-4e68a29c0da7
+TenantId         : 93bf7472-983c-429f-bd89-4cf59c7aa333
+Environment      : AzureCloud
+
+Using the subscription:  Visual Studio Enterprise with MSDN  Id:  acfa5b40-305f-49b6-b379-4e68a29c0da7
+
+Name               : [spsms03@hotmail.com, acfa5b40-305f-49b6-b379-4e68a29c0da7]
+Account            : spsms03@hotmail.com
+Environment        : AzureCloud
+Subscription       : acfa5b40-305f-49b6-b379-4e68a29c0da7
+Tenant             : 93bf7472-983c-429f-bd89-4cf59c7aa333
+TokenCache         : Microsoft.Azure.Commands.Common.Authentication.AuthenticationStoreTokenCache
+VersionProfile     :
+ExtendedProperties : {}
+
+1    eastasia
+2    southeastasia
+3    centralus
+4    eastus
+5    eastus2
+6    westus
+7    northcentralus
+8    southcentralus
+9    northeurope
+10    westeurope
+11    japanwest
+12    japaneast
+13    brazilsouth
+14    australiaeast
+15    australiasoutheast
+16    southindia
+17    centralindia
+18    westindia
+19    canadacentral
+20    canadaeast
+21    uksouth
+22    ukwest
+23    westcentralus
+24    westus2
+25    koreacentral
+26    koreasouth
+27    francecentral
+28    francesouth
+
+Enter the number corresponding to the Azure region you want to use:
+Your Azure region is:  eastus
+
+Lab 5 setup is complete
+Started at 04/01/2018 04:16:27
+Ended at 04/01/2018 04:17:22
+
+Total elapsed time is 0 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20180401041722
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20180404100252
+Username: ASINGALA-PC\asingala
+RunAs User: ASINGALA-PC\asingala
+Configuration Name: 
+Machine: ASINGALA-PC (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7940
+PSVersion: 5.1.16299.251
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.251
+BuildVersion: 10.0.16299.251
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Temp\MOC20533\Allfiles\Logs\New-20533DEnvironment-5.log
+
+Now setting up Lab 5
+
+
+Account          : spsms03@hotmail.com
+SubscriptionName : Visual Studio Enterprise with MSDN
+SubscriptionId   : acfa5b40-305f-49b6-b379-4e68a29c0da7
+TenantId         : 93bf7472-983c-429f-bd89-4cf59c7aa333
+Environment      : AzureCloud
+
+Using the subscription:  Visual Studio Enterprise with MSDN  Id:  acfa5b40-305f-49b6-b379-4e68a29c0da7
+
+Name               : [spsms03@hotmail.com, acfa5b40-305f-49b6-b379-4e68a29c0da7]
+Account            : spsms03@hotmail.com
+Environment        : AzureCloud
+Subscription       : acfa5b40-305f-49b6-b379-4e68a29c0da7
+Tenant             : 93bf7472-983c-429f-bd89-4cf59c7aa333
+TokenCache         : Microsoft.Azure.Commands.Common.Authentication.AuthenticationStoreTokenCache
+VersionProfile     :
+ExtendedProperties : {}
+
+1    eastasia
+2    southeastasia
+3    centralus
+4    eastus
+5    eastus2
+6    westus
+7    northcentralus
+8    southcentralus
+9    northeurope
+10    westeurope
+11    japanwest
+12    japaneast
+13    brazilsouth
+14    australiaeast
+15    australiasoutheast
+16    southindia
+17    centralindia
+18    westindia
+19    canadacentral
+20    canadaeast
+21    uksouth
+22    ukwest
+23    westcentralus
+24    westus2
+25    koreacentral
+26    koreasouth
+27    francecentral
+28    francesouth
+
+Enter the number corresponding to the Azure region you want to use:
+Your Azure region is:  centralus
+
+Lab 5 setup is complete
+Started at 04/04/2018 10:02:52
+Ended at 04/04/2018 10:03:30
+
+Total elapsed time is 0 minutes
+
+**********************
+Windows PowerShell transcript end
+End time: 20180404100330
+**********************
